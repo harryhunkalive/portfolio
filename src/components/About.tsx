@@ -4,9 +4,9 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-black">
+    <section id="about" className="py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Card className="w-full bg-black/[0.96] relative overflow-hidden border-gray-800">
+        <Card className="w-full bg-black/30 backdrop-blur-sm relative overflow-hidden border-gray-800/50">
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"

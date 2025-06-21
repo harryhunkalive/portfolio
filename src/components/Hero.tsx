@@ -23,9 +23,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-black pt-16">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <Card className="w-full h-[600px] bg-black/[0.96] relative overflow-hidden border-gray-800">
+        <Card className="w-full h-[600px] bg-black/30 backdrop-blur-sm relative overflow-hidden border-gray-800/50">
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"
@@ -51,13 +51,13 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#projects"
-                  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 hover-scale"
+                  className="bg-blue-600/80 backdrop-blur-sm text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700/80 transition-colors duration-200 hover-scale"
                 >
                   View My Work
                 </a>
                 <a
                   href="#contact"
-                  className="border-2 border-blue-600 text-blue-400 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-all duration-200 hover-scale"
+                  className="border-2 border-blue-600/80 text-blue-400 px-8 py-3 rounded-lg font-medium hover:bg-blue-600/80 hover:text-white transition-all duration-200 hover-scale backdrop-blur-sm"
                 >
                   Get In Touch
                 </a>

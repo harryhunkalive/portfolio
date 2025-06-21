@@ -48,9 +48,9 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-black">
+    <section id="contact" className="py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Card className="w-full bg-black/[0.96] relative overflow-hidden border-gray-800">
+        <Card className="w-full bg-black/30 backdrop-blur-sm relative overflow-hidden border-gray-800/50">
           <Spotlight
             className="-top-40 right-0 md:right-60 md:-top-20"
             fill="white"
