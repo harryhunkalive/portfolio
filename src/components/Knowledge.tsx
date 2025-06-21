@@ -1,15 +1,30 @@
 
 import { Card } from "@/components/ui/card";
 import { Spotlight } from "@/components/ui/spotlight";
+import { IconCloud } from "@/components/ui/interactive-icon-cloud";
 
 const Knowledge = () => {
-  const skills = [
-    { name: 'React', level: 90, color: 'from-blue-400 to-blue-500' },
-    { name: 'TypeScript', level: 85, color: 'from-blue-500 to-blue-600' },
-    { name: 'Node.js', level: 80, color: 'from-green-400 to-green-500' },
-    { name: 'Python', level: 75, color: 'from-yellow-400 to-yellow-500' },
-    { name: 'PostgreSQL', level: 70, color: 'from-indigo-400 to-indigo-500' },
-    { name: 'AWS', level: 65, color: 'from-orange-400 to-orange-500' },
+  const iconSlugs = [
+    "typescript",
+    "javascript",
+    "react",
+    "nodejs",
+    "python",
+    "postgresql",
+    "mongodb",
+    "amazonaws",
+    "docker",
+    "git",
+    "nextdotjs",
+    "express",
+    "tailwindcss",
+    "graphql",
+    "html5",
+    "css3",
+    "github",
+    "visualstudiocode",
+    "figma",
+    "vercel"
   ];
 
   const technologies = [
@@ -36,24 +51,11 @@ const Knowledge = () => {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12">
-              {/* Skills with Progress Bars */}
+              {/* Interactive Icon Cloud */}
               <div>
                 <h3 className="text-2xl font-semibold text-neutral-200 mb-8">Technical Proficiency</h3>
-                <div className="space-y-6">
-                  {skills.map((skill, index) => (
-                    <div key={skill.name} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-neutral-300 font-medium">{skill.name}</span>
-                        <span className="text-neutral-500 text-sm">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-gray-800 rounded-full h-2">
-                        <div
-                          className={`h-2 rounded-full bg-gradient-to-r ${skill.color} transition-all duration-1000 ease-out`}
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  ))}
+                <div className="relative flex items-center justify-center overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm border border-gray-800/50 min-h-[400px]">
+                  <IconCloud iconSlugs={iconSlugs} />
                 </div>
               </div>
 
@@ -64,7 +66,7 @@ const Knowledge = () => {
                   {technologies.map((tech, index) => (
                     <div
                       key={tech}
-                      className="bg-gray-900/50 p-4 rounded-lg shadow-sm border border-gray-800 text-center hover:shadow-md hover:border-gray-700 transition-all duration-200 hover-scale"
+                      className="bg-black/30 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-gray-800 text-center hover:shadow-md hover:border-gray-700 transition-all duration-200 hover-scale"
                       style={{ animationDelay: `${index * 0.05}s` }}
                     >
                       <span className="text-neutral-300 font-medium">{tech}</span>
