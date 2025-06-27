@@ -5,31 +5,37 @@ import { IconCloud } from "@/components/ui/interactive-icon-cloud";
 
 const Knowledge = () => {
   const iconSlugs = [
-    "typescript",
+  
     "javascript",
     "react",
     "nodejs",
     "python",
-    "postgresql",
+    "Sql",
     "mongodb",
     "amazonaws",
     "docker",
     "git",
-    "nextdotjs",
+    "Flask",
+    "nextjs",
     "express",
     "tailwindcss",
-    "graphql",
     "html5",
     "css3",
     "github",
     "visualstudiocode",
     "figma",
-    "vercel"
+    "vercel",
+    "Pandas",
+    "Power BI",
+    "GitHub",
+
+
+
   ];
 
   const technologies = [
-    'React', 'TypeScript', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB',
-    'AWS', 'Docker', 'Git', 'Tailwind CSS', 'Next.js', 'GraphQL'
+    'React', 'Node.js', 'Express', 'SQL', 'MongoDB', "Excel", "Flask", "Python", "JavaScript",
+    'AWS', 'Docker', 'Git', 'Tailwind CSS', 'Next.js', "Pandas", "Power BI", "GitHub", "HTML" 
   ];
 
   return (
@@ -53,7 +59,7 @@ const Knowledge = () => {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Interactive Icon Cloud */}
               <div>
-                <h3 className="text-2xl font-semibold text-neutral-200 mb-8">Technical Proficiency</h3>
+                <h3 className="text-2xl font-semibold text-neutral-200 mb-8"></h3>
                 <div className="relative flex items-center justify-center overflow-hidden rounded-lg bg-black/20 backdrop-blur-sm border border-gray-800/50 min-h-[400px]">
                   <IconCloud iconSlugs={iconSlugs} />
                 </div>
@@ -61,7 +67,7 @@ const Knowledge = () => {
 
               {/* Technologies Grid */}
               <div>
-                <h3 className="text-2xl font-semibold text-neutral-200 mb-8">Technologies & Tools</h3>
+                <h3 className="text-2xl font-semibold text-neutral-200 mb-8"></h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {technologies.map((tech, index) => (
                     <div

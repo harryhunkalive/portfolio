@@ -30,20 +30,20 @@ const Contact = () => {
     {
       icon: '📧',
       label: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com'
+      value: 'harryhunkalive@gmail.com',
+      href: 'mailto:harryhunkalive@gmail.com'
     },
     {
       icon: '💼',
       label: 'LinkedIn',
-      value: 'linkedin.com/in/johndoe',
-      href: 'https://linkedin.com/in/johndoe'
+      value: 'linkedin.com/in/harryhunkalive',
+      href: 'https://linkedin.com/in/harryhunkalive'
     },
     {
       icon: '🐙',
       label: 'GitHub',
-      value: 'github.com/johndoe',
-      href: 'https://github.com/johndoe'
+      value: 'github.com/harryhunkalive',
+      href: 'https://github.com/harryhunkalive'
     },
   ];
 

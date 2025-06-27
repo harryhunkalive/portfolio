@@ -24,15 +24,14 @@ const About = () => {
                   Passionate Developer & Problem Solver
                 </h3>
                 <p className="text-neutral-400 leading-relaxed">
-                  With over 5 years of experience in web development, I specialize in creating 
-                  modern, scalable applications using cutting-edge technologies. My journey began 
-                  with a curiosity for how things work on the web, and it has evolved into a 
-                  passion for crafting exceptional digital experiences.
+                  I'm a Computer Science graduate from Dayananda Sagar University with a strong foundation in backend development, data analytics, and automation. 
+                  My internship at HAL gave me real-world exposure to developing REST APIs using Flask, automating Excel tasks with Python, and integrating analytics 
+                  using Pandas and Chart.js. I’ve also built AI-based and data-driven applications using tools like Transformers, Power BI, and deep learning libraries.
+                  I thrive on writing clean Python code, optimizing systems, and constantly learning new tools and technologies. Currently, I'm exploring full-stack development
+                  and AIML to expand my capabilities as a developer.
                 </p>
                 <p className="text-neutral-400 leading-relaxed">
-                  I believe in writing clean, maintainable code and following best practices. 
-                  When I'm not coding, you can find me exploring new technologies, contributing 
-                  to open-source projects, or sharing knowledge with the developer community.
+               
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <span className="px-4 py-2 bg-blue-500/20 text-blue-400 rounded-full text-sm font-medium border border-blue-500/30">

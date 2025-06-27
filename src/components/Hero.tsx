@@ -6,7 +6,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'Full Stack Developer';
+  const fullText = 'Python Devloper';
   
   useEffect(() => {
     let i = 0;
@@ -37,7 +37,7 @@ const Hero = () => {
               <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mb-4">
                 Hi, I'm{' '}
                 <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  John Doe
+                  Hari Prasad
                 </span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-neutral-300 mb-6 h-10">
@@ -45,8 +45,7 @@ const Hero = () => {
                 <span className="animate-pulse">|</span>
               </h2>
               <p className="text-lg text-neutral-400 mb-8 max-w-lg">
-                I create beautiful, responsive web applications with modern technologies. 
-                Passionate about clean code and exceptional user experiences.
+               I specialize in building data-driven applications using Pandas, Power BI, and automation tools. From ETL to visualization, I turn complexity into clarity.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
