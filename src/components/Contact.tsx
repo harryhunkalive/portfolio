@@ -45,6 +45,13 @@ const Contact = () => {
       href: 'mailto:harryhunkalive@gmail.com'
     },
     {
+      icon: '📱',
+      label: 'Phone',
+      value: '9513063276',
+      href: 'tel:9513063276',
+      
+    },
+    {
       icon: '💼',
       label: 'LinkedIn',
       value: 'linkedin.com/in/harryhunkalive',

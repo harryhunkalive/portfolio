@@ -5,36 +5,39 @@ import { IconCloud } from "@/components/ui/interactive-icon-cloud";
 
 const Knowledge = () => {
   const iconSlugs = [
-  
-    "javascript",
-    "react",
-    "nodejs",
     "python",
-    "Sql",
+    "sql",
+    "mysql",
     "mongodb",
     "amazonaws",
     "docker",
     "git",
-    "Flask",
-    "nextjs",
-    "express",
-    "tailwindcss",
+    "github",
+    "flask",
     "html5",
     "css3",
-    "github",
+    "javascript",
+    "bootstrap",
+    "nextjs",
+    "express",
     "visualstudiocode",
-  
-    "Pandas",
-    "Power BI",
-    "GitHub",
-
-
-
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "powerbi",
+    "tableau",
+    "vscode",
+    "jupyter",
+    "postman"
   ];
 
-  const technologies = [
-     'SQL', 'MongoDB', "Excel", "Flask", "Python", "JavaScript","Tableu",
-    'AWS', 'Docker', 'Git', 'Tailwind CSS',  "Pandas", "Power BI", "GitHub", "HTML" 
+  // use this array to render icons/logos
+
+
+ const technologies = [
+      "Python", "JavaScript","Tableu",
+    'AWS', 'Docker', 'Git', 'CSS', 'SQL', "Excel", "Flask", "Pandas", "Power BI", "GitHub", "HTML" 
   ];
 
   return (
