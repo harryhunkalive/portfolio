@@ -6,12 +6,12 @@ import { Spotlight } from "@/components/ui/spotlight";
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution.',
+      title: 'Power-BI',
+      description: 'Power-BI Dashboard Projects.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
       technologies: ['SQL'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/harryhunkalive/Power-BI',
     },
     {
       title: 'Task Management System',
@@ -19,7 +19,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
       technologies: ['Flask', 'Python', 'Excel', 'Pandas'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/harryhunkalive/Task-Management-System',
     },
     {
       title: 'Comming soon',

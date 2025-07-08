@@ -24,11 +24,13 @@ const About = () => {
                   Passionate Developer & Problem Solver
                 </h3>
                 <p className="text-neutral-400 leading-relaxed">
-                  I'm a Computer Science graduate from Dayananda Sagar University with a strong foundation in backend development, data analytics, and automation. 
-                  My internship at HAL gave me real-world exposure to developing REST APIs using Flask, automating Excel tasks with Python, and integrating analytics 
-                  using Pandas and Chart.js. I’ve also built AI-based and data-driven applications using tools like Transformers, Power BI, and deep learning libraries.
-                  I thrive on writing clean Python code, optimizing systems, and constantly learning new tools and technologies. Currently, I'm exploring full-stack development
-                  and AIML to expand my capabilities as a developer.
+                I’m a Computer Science graduate with a strong passion for Python development, data analytics, and building meaningful tech solutions.
+                 During my internship at Hindustan Aeronautics Limited, I developed a full-stack task management system using Flask, Pandas, and Excel automation, 
+                 and created interactive dashboards for data insights. I’ve also built a Power BI portfolio with projects in sales, insurance, and content analytics, showcasing my skills in SQL, DAX, and data modeling. 
+                My technical toolkit includes Python, SQL, Power BI, Tableau, and AWS, along with Git for version control.
+                In addition to technical abilities, I bring strong problem-solving, communication, and team collaboration skills developed through hands-on
+                 project work and cross-functional internships. I’m a quick learner, adaptable, and always eager to grow in dynamic environments.
+                  I’m currently exploring AI and cloud technologies to further expand my capabilities as a data-driven professional
                 </p>
                 <p className="text-neutral-400 leading-relaxed">
                

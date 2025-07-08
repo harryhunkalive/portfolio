@@ -23,8 +23,7 @@ const Knowledge = () => {
     "css3",
     "github",
     "visualstudiocode",
-    "figma",
-    "vercel",
+  
     "Pandas",
     "Power BI",
     "GitHub",
@@ -34,8 +33,8 @@ const Knowledge = () => {
   ];
 
   const technologies = [
-    'React', 'Node.js', 'Express', 'SQL', 'MongoDB', "Excel", "Flask", "Python", "JavaScript",
-    'AWS', 'Docker', 'Git', 'Tailwind CSS', 'Next.js', "Pandas", "Power BI", "GitHub", "HTML" 
+     'SQL', 'MongoDB', "Excel", "Flask", "Python", "JavaScript","Tableu",
+    'AWS', 'Docker', 'Git', 'Tailwind CSS',  "Pandas", "Power BI", "GitHub", "HTML" 
   ];
 
   return (

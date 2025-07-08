@@ -34,6 +34,13 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
+              <a
+                href="/resume/HariPrasad _Resume_DataAnalyst.pdf"
+                download="resume.txt"
+                className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors duration-200"
+              >
+                Resume
+              </a>
             </div>
           </div>
           
@@ -63,6 +70,14 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
+            <a
+              href="/resume/placeholder.txt"
+              download="resume.txt"
+              className="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 transition-colors duration-200"
+              onClick={() => setIsOpen(false)}
+            >
+              Resume
+            </a>
           </div>
         </div>
       )}

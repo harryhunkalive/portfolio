@@ -21,7 +21,18 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+
+    const { name, email, message: desc } = formData;
+    const subject = "Contact from Portfolio";
+    const portfolio = "https://hari.onrender.com/";
+
+    const message = `Hello Abhishek,\n\nMy name is ${name}. I am contacting you regarding \"${subject}\".\n\nHere are my details:\nEmail: ${email}\n\nMessage:\n${desc}\n\nI have reviewed your portfolio: ${portfolio}\nI look forward to your response. Thank you.`;
+
+    window.open(
+      `https://wa.me/919513063276?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+
     toast.success('Message sent successfully! I\'ll get back to you soon.');
     setFormData({ name: '', email: '', message: '' });
   };
