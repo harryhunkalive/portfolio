@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'Power-BI',
       description: 'Power-BI Dashboard Projects.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
-      technologies: ['SQL'],
+      technologies: ['Power_BI', 'SQL', 'Excel',],
       liveUrl: '#',
       githubUrl: 'https://github.com/harryhunkalive/Power-BI',
     },
